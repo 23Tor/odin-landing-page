@@ -1,0 +1,174 @@
+/* Reset default margins and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
+/* Global styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #1F2937;
+}
+
+.header-logo {
+  flex: 1;
+}
+
+.header-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.secondary-text {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+/* Main content styles */
+.main {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  background-color: #1F2937;
+}
+
+.main-child-one {
+  flex: 1;
+  font-weight: 48px;
+  color: #F9FAF8;
+  align-items: flex-start;
+}
+
+.main-child-one p {
+  text-align: left;
+  color: #e5e7eB;
+}
+
+.main-child-one button {
+  float: left;
+}
+
+.main-child-one h1 {
+  text-align: left;
+}
+
+.main-child-two {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.hero-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+img {
+  margin-top: 20px;
+}
+
+.content-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-box div {
+  display: inline-block;
+}
+
+.content-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+/* Quote styles */
+.quote {
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  background-color: #e5e7eB;
+  color: #1F2937;
+  font-style: italic;
+}
+
+.quote p:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Call to action styles */
+.cta {
+  border-radius: 25px;
+  text-align: center;
+  margin: 50px 50px 50px 50px;
+  padding: 20px;
+  background-color: #3882F6;
+  color: #fff;
+}
+
+.cta-content p {
+  color: #F9FAF8;
+  font-size: 14;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1F2937;
+}
+
+.footer p {
+  color: #F9FAF8;
+}
